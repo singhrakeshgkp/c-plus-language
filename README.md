@@ -35,4 +35,4 @@
    - Constants using keyword ```const``` ```const x =10```
 
 ## Operand Operators and Precedence
-- ```OperatorEx1```
+- ```OperatorEx1``` https://en.cppreference.com/w/cpp/language/operator_precedence
