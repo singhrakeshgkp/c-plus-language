@@ -24,5 +24,5 @@
 ## Constants
 - Create a file named ```ConstantsEx.cpp``` and define following constants
    - Defining Constants using macro, syntax ```define X 10```
-   - Constants using enum ```enum{x=10}
+   - Constants using enum ```enum{x=10}```
    - Constants using keyword ```const``` ```const x =10```
