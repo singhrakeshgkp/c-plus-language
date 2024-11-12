@@ -56,7 +56,7 @@
    - **PassByValue**--> if we pass vector to another method the variable value will be copied.
    - **PassByReference** --> Here memory address will be copy, both variable will be refering to same memory address.
  
-### STL(Standard Template Library) 
-  - Similar to vector while passing to function its value and also it knows its size.
+### STL Array 
+  - **STL(Standard Template Library) Array** acts Similar to vector while passing to function, also it knows its size.
   - Its size is fix, however Vector size is not.
   -  ```STLArrayEx1.cpp``` 
