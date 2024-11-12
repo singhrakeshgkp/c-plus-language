@@ -10,6 +10,7 @@
    - [Arrays And Vector](#arrays-and-vector)
      - [Arrays](#arrays)
      - [Vector](#vector)
+     - [STL Array](#stl-array)
      
 # Reference
 - https://en.cppreference.com/w/
@@ -42,8 +43,20 @@
 ## Arrays And Vector
   ### Arrays
    - **Calculating Array size** ```ArrayEx1.cpp```
-   - **Passing array to function** ```ArrayEx2.cpp``` printArray1 method will not be able to iterate as we dont know size of array and if we calculate it, we will get size of pointer not array. printArray2 method get rid of this limitation.
-   - **Initialized and partiallized array element values** ```ArrayEx3.cpp``` If array is partially initialized, rest of the elements values would be zero, if its not initialized array element values are unpredictable.
+   - **Passing array to function** ```ArrayEx2.cpp``` printArray1 method will not be able to iterate as we dont know size of array and if we calculate 
+     it, we will get size of pointer not array. printArray2 method get rid of this limitation.
+   - **Initialized and partiallized array element values** ```ArrayEx3.cpp``` If array is partially initialized, rest of the elements values would be 
+      zero, if its not initialized array element values are unpredictable.
    - **Initialize array element from console** ```ArrayEx4.cpp```
 
 ### Vector 
+- Vector is a dynamic collection. use ```g++ VectorEx1.cpp -std=c++11``` to avoid compilation issue use c++11 while compiling
+- ```VectorEx1.cpp``` ----> How to use vector
+- **Passing Vector to Method** --> ```VectorEx2.cpp```
+   - **PassByValue**--> if we pass vector to another method the variable value will be copied.
+   - **PassByReference** --> Here memory address will be copy, both variable will be refering to same memory address.
+ 
+### STL(Standard Template Library) 
+  - Similar to vector while passing to function its value and also it knows its size.
+  - Its size is fix, however Vector size is not.
+  -  ```STLArrayEx1.cpp``` 
