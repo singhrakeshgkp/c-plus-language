@@ -7,7 +7,10 @@
    - [Data Types](#data-types)
    - [Constants](#constants)
    - [Operand Operators and Precedence](#operand-operators-and-precedence)
- 
+   - [Arrays And Vector](#arrays-and-vector)
+     - [Arrays](#arrays)
+     - [Vector](#vector)
+     
 # Reference
 - https://en.cppreference.com/w/
 # Basic
@@ -36,3 +39,11 @@
 
 ## Operand Operators and Precedence
 - ```OperatorEx1``` https://en.cppreference.com/w/cpp/language/operator_precedence
+## Arrays And Vector
+  ### Arrays
+   - **Calculating Array size** ```ArrayEx1.cpp```
+   - **Passing array to function** ```ArrayEx2.cpp``` printArray1 method will not be able to iterate as we dont know size of array and if we calculate it, we will get size of pointer not array. printArray2 method get rid of this limitation.
+   - **Initialized and partiallized array element values** ```ArrayEx3.cpp``` If array is partially initialized, rest of the elements values would be zero, if its not initialized array element values are unpredictable.
+   - **Initialize array element from console** ```ArrayEx4.cpp```
+
+### Vector 
