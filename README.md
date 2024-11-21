@@ -12,7 +12,7 @@
      - [Vector](#vector)
      - [STL Array](#stl-array)
      - [Array vs STL Array vs Vector](#array-vs-stl-array-vs-vector)
-     
+   - [Multiple File Compilation](#multiple-file-compilation)  
 # Reference
 - https://en.cppreference.com/w/
 # Basic
@@ -61,5 +61,10 @@
   - **STL(Standard Template Library) Array** acts Similar to vector while passing to function, also it knows its size.
   - Its size is fix, however Vector size is not.
   -  ```STLArrayEx1.cpp``` 
-### Array vs STL Array vs Vector
-- 
+## Multiple File Compilation
+- In C++ we can categorize our files in three category
+   - ```header file``` with .h extension and it is similar to interface where we can have function declaration.
+   - ```implementation file``` with .cpp extension.
+   - ```main file```
+
+-  refer ```math_stuff.cpp, math_utils.cpp and math_utils.h``` files. compile the file using ```g++ math_stuff.cpp math_utils.cpp``` command
