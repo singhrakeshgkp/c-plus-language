@@ -12,7 +12,8 @@
      - [Vector](#vector)
      - [STL Array](#stl-array)
      - [Array vs STL Array vs Vector](#array-vs-stl-array-vs-vector)
-   - [Multiple File Compilation](#multiple-file-compilation)  
+   - [Multiple File Compilation](#multiple-file-compilation)
+   - [Makefile](#makefile)
 # Reference
 - https://en.cppreference.com/w/
 # Basic
@@ -68,3 +69,7 @@
    - ```main file```
 
 -  refer ```math_stuff.cpp, math_utils.cpp and math_utils.h``` files. compile the file using ```g++ math_stuff.cpp math_utils.cpp``` command
+
+  ## Makefile
+  - A makefile is a text file that contains instructions for how to compile and link (or build) a set of source code files.
+  - refer ```makefile``` under math directory. run command ```make``` from terminal, new files will be generated. now run ```./calculator``` command to run application.
