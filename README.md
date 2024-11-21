@@ -11,6 +11,7 @@
      - [Arrays](#arrays)
      - [Vector](#vector)
      - [STL Array](#stl-array)
+     - [Array vs STL Array vs Vector](#array-vs-stl-array-vs-vector)
      
 # Reference
 - https://en.cppreference.com/w/
@@ -60,3 +61,5 @@
   - **STL(Standard Template Library) Array** acts Similar to vector while passing to function, also it knows its size.
   - Its size is fix, however Vector size is not.
   -  ```STLArrayEx1.cpp``` 
+### Array vs STL Array vs Vector
+- 
