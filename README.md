@@ -14,6 +14,7 @@
      - [Array vs STL Array vs Vector](#array-vs-stl-array-vs-vector)
    - [Multiple File Compilation](#multiple-file-compilation)
    - [Makefile](#makefile)
+   - [Namespaces](#namespaces)
 # Reference
 - https://en.cppreference.com/w/
 # Basic
@@ -75,3 +76,5 @@
   - refer ```makefile``` under math directory. run command ```make``` from terminal, new files will be generated. now run ```./calculator``` command to run application.
   - To perform clean up operation run ```make clean``` command
   - **Note** compilation and linking will happens for only those file where it detect changes.
+## NameSpaces
+- Use for grouping. Copy and paste all methods of ```math_utils.cpp and math_utils.h``` inside a name space called ```mts``` and try to access ```pow function using mtu::pow``` command
