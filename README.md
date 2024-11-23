@@ -73,4 +73,5 @@
   ## Makefile
   - A makefile is a text file that contains instructions for how to compile and link (or build) a set of source code files.
   - refer ```makefile``` under math directory. run command ```make``` from terminal, new files will be generated. now run ```./calculator``` command to run application.
+  - To perform clean up operation run ```make clean``` command
   - **Note** compilation and linking will happens for only those file where it detect changes.
