@@ -17,7 +17,6 @@
    - [Namespaces](#namespaces)
    - [Template Function](#template-function)
    - [OOPs](#oops)
-      -[Structs](#structs)
 # Reference
 - https://en.cppreference.com/w/
 # Basic
