@@ -2,6 +2,7 @@
 #include <iostream>
 #include "math_utils.h"
 
+namespace mtu{
 double area(Rectangle rectangle){
  return rectangle.length*rectangle.width;
 }
@@ -11,4 +12,5 @@ double pow(double base, int raise){
     result *= base;
   }
   return result;
+}
 }

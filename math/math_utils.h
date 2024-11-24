@@ -5,7 +5,9 @@ struct Rectangle{
     double width;
 };
 
-double area(Rectangle rectangle);
-double pow(double base, int raise = 2);
+namespace mtu{
+    double area(Rectangle rectangle);
+    double pow(double base, int raise = 2);
+}
 
 #endif
