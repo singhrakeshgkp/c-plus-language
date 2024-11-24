@@ -1,5 +1,5 @@
 # Table of contents
--[OOPs](#oops)
+- [OOPs](#oops)
   - [Structs](#structs)
 
 # OOPS
