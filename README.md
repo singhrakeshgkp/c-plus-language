@@ -17,6 +17,7 @@
    - [Namespaces](#namespaces)
    - [Template Function](#template-function)
    - [OOPs](#oops)
+      -[Structs](#structs)
 # Reference
 - https://en.cppreference.com/w/
 # Basic
@@ -84,4 +85,5 @@
 - Template Function is similar to Generics in java. refer ```GenericSwap.cpp```
 ## OOPs
 ### Object Oriented Programming
-
+### Structs
+- 
