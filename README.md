@@ -16,6 +16,7 @@
    - [Makefile](#makefile)
    - [Namespaces](#namespaces)
    - [Template Function](#template-function)
+   - [OOPs](#oops)
 # Reference
 - https://en.cppreference.com/w/
 # Basic
@@ -81,3 +82,6 @@
 - Use for grouping. Copy and paste all methods of ```math_utils.cpp and math_utils.h``` inside a name space called ```mts``` and try to access ```pow function using mtu::pow``` command
 ## Template Function
 - Template Function is similar to Generics in java. refer ```GenericSwap.cpp```
+## OOPs
+### Object Oriented Programming
+
