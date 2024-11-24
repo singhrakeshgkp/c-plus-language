@@ -84,6 +84,4 @@
 ## Template Function
 - Template Function is similar to Generics in java. refer ```GenericSwap.cpp```
 ## OOPs
-### Object Oriented Programming
-### Structs
-- 
+### for more detail go to [here](https://github.com/singhrakeshgkp/c-plus-2/blob/03-oops/README.md)
