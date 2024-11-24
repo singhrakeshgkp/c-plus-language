@@ -15,6 +15,7 @@
    - [Multiple File Compilation](#multiple-file-compilation)
    - [Makefile](#makefile)
    - [Namespaces](#namespaces)
+   - [Template Function](#template-function)
 # Reference
 - https://en.cppreference.com/w/
 # Basic
@@ -78,3 +79,5 @@
   - **Note** compilation and linking will happens for only those file where it detect changes.
 ## NameSpaces
 - Use for grouping. Copy and paste all methods of ```math_utils.cpp and math_utils.h``` inside a name space called ```mts``` and try to access ```pow function using mtu::pow``` command
+## Template Function
+- Template Function is similar to Generics in java. refer ```GenericSwap.cpp```
