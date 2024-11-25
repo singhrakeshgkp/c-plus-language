@@ -14,4 +14,4 @@
 -  **Static Data member** refer ```ClassEx3.cpp``` we can not initialize static data member variable inside class, we have to initialize outside class.
 -  **Operator Overloading**  refer ```OperatorOverloadingEx1.cpp```
 -  **Overloading Insert and Extraction operator** ```OperatorOverloadingEx2.cpp```
--  **Friend Functions and Operator Overloading** ```OperatorOverloadingEx3.cpp```
+-  **Friend Functions and Operator Overloading** ```FriendFunEx1.cpp``` can be used to acess private data member of a call.
