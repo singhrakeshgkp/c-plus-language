@@ -2,7 +2,8 @@
 - [OOPs](#oops)
   - [Structs](#structs)
   - [Class](#class)
-  - [Using Class From Multiple Files](#using-class-from-multiple-files)
+    - [Using Class From Multiple Files](#using-class-from-multiple-files)
+    - [Inheritance and Polymorphism](#inheritance-and-polymorphism)
 
 # OOPS
 ## Structs
@@ -16,5 +17,6 @@
 -  **Operator Overloading**  refer ```OperatorOverloadingEx1.cpp```
 -  **Overloading Insert and Extraction operator** ```OperatorOverloadingEx2.cpp```
 -  **Friend Functions and Operator Overloading** ```FriendFunEx1.cpp``` can be used to acess private data member of a call.
-## Using Class From Multiple Files
+### Using Class From Multiple Files
 - create ```Employee.cpp, Employee.h and main.cpp file``` copy employee class and methods from ```FriendFunEx1.cpp``` class. Compline and run it should produce same result as ```FirnedFunEx1.cpp```
+### Inheritance and Polymorphism
